@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Movie Header */
+.header.logo {
+    height: 3rem;
+}
+
+.navbar-list {
+    margin-top: 20px;
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+}
+
+.header {
+    height:4rem;
+    background-color: #dbdbdb;
+
+}
+.div{
+    margin: 0px;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff3f3f1;
+    transition: all 0.3s;
+}
+#APP-heading{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(68, 0, 0);
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+input {
+    height: 31px;
+    width: 230px;
+    border-radius: 5px;
+}
+
+
+.navbar-link:hover {
+    color: rgb(61, 64, 70);
+}
+
+.mobile-navbar-btn {
+    border: none;
+    display: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.learn-button {
+    margin-top: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+}
+
+.para {
+    margin-top: 66px;
+    font-size: 35px;
+}
+
+#heading {
+    font-size: 50px;
+}
+
+#highlight {
+    font-size: 60px;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+    display: none;
+}
+
+.mobile-nav-icon {
+    width: 4rem;
+    height: 4rem;
+    color: #e9ecee;
+}
+
+#label {
+    font-weight: 600;
+    color: gray;
+}
+
+#searchBtn {
+    font-size: 15px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(155 25 25 / 94%);
+}
+
+#RATING {
+    height: 30px;
+    width: 80%;
+}
+
+#LANGUAGE {
+    height: 30px;
+}
+
+#head1 {
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+
+}
+
+#head2 {
+    font-size: 20px;
+    margin-left: 10rem;
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+
+}
+
+#end {
+    font-size: 20px;
+    margin-right: 30px;
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+    float: right;
+}
+
+#date {
+    color: black;
+    font-weight: 600;
+    float: right;
+}
+
+.movie-container {
+    background-color: #e0e0e0;
+}
+
+.poster {
+    margin-left: 10rem;
+    height: 150px;
+    width: 100px;
+}
+
+.title {
+    margin-left: 10rem;
+
+}
+
+.main {
+    margin-top: 20px;
+    height: 63px;
+    background-color: #1a191b;
+}
